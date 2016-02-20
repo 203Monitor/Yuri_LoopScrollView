@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
  s.name         = "Yuri_LoopScrollView"
   s.version      = "1.0"
-  s.summary      = "简单易用的app必用的广告轮播组件"
+  s.summary      = "简单易用的app广告轮播组件"
 
   s.description  = <<-DESC
                    A longer description of HYBLoopScrollView in Markdown format.
