@@ -4,8 +4,10 @@ Pod::Spec.new do |s|
   s.summary      = "简单易用的app广告轮播组件"
 
   s.description  = <<-DESC
-                   A longer description of HYBLoopScrollView in Markdown format.
+                   |Yuri_LoopScrollView|简单易用的app广告轮播组件|
+                   | ---- | ---- |
 
+                   * A longer description of Yuri_LoopScrollView in Markdown format.
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
                    * Try to keep it short, snappy and to the point.
@@ -15,8 +17,8 @@ Pod::Spec.new do |s|
  s.license      = "MIT"
  s.author             = { "Yuri" => "930502900@QQ.com" }
  s.platform     = :ios, '8.0'
- s.source       = { :git => "https://github.com/CoderJackyHuang/HYBLoopScrollView.git", :tag => "2.2.5" }
- s.source_files  = "HYBLoopScrollView/HYBLoopScrollview/*"
+ s.source       = { :git => "https://github.com/203Monitor/Yuri_LoopScrollView.git", :tag => "1.0" }
+ s.source_files  = "Yuri_LoopScrollView/Yuri_LoopScrollView/*"
 
 
   # s.public_header_files = "Classes/**/*.h"
