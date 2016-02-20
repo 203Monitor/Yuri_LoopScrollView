@@ -18,13 +18,8 @@ Pod::Spec.new do |s|
  s.author       = { "Yuri" => "930502900@QQ.com" }
  s.platform     = :ios, '8.0'
  s.source       = { :git => "https://github.com/203Monitor/Yuri_LoopScrollView.git", :tag => "1.0" }
- s.source_files = "Yuri_LoopScrollView/Yuri_LoopScrollView/*"
-
-
-  # s.public_header_files = "Classes/**/*.h"
+ s.source_files = "Yuri_LoopScrollView/Yuri_LoopScrollView/*.{h,m}"
  s.requires_arc = true
-
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
  s.dependency "AFNetworking", "~> 3.0"
 
 end
