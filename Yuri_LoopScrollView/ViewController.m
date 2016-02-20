@@ -30,7 +30,7 @@
   
   NSArray *titles = @[@"Thank you for your support!",
                       @"Contact me if any quetion.",
-                      @"Email me huangyibiao520@163.com.",
+                      @"Email me 930502900@qq.com.",
                       @"Thank you again."
                       ];
   
