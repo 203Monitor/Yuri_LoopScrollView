@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Yuri_LoopScrollView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "简单易用的app广告轮播组件"
   s.description  = <<-DESC
                     |Yuri_LoopScrollView|简单易用的app广告轮播组件|
