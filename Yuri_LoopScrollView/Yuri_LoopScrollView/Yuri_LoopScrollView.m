@@ -43,7 +43,7 @@ NSString * const kCellIdentifier = @"ReuseCellIdentifier";
   [super layoutSubviews];
   
   self.imageView.frame = self.bounds;
-  self.titleLabel.frame = CGRectMake(0, self.Yuri__height - 30, self.Yuri__width, 30);
+  self.titleLabel.frame = CGRectMake(0, self.Yuri__height-30, self.Yuri__width, 30);
   self.titleLabel.hidden = self.titleLabel.text.length > 0 ? NO : YES;
 }
 
@@ -97,6 +97,7 @@ NSString * const kCellIdentifier = @"ReuseCellIdentifier";
 + (instancetype)loopScrollViewWithFrame:(CGRect)frame imageUrls:(NSArray *)imageUrls {
   return [self loopScrollViewWithFrame:frame
                              imageUrls:imageUrls
+                                titles:nil
                           timeInterval:5.0
                              didSelect:nil
                              didScroll:nil];
@@ -104,11 +105,13 @@ NSString * const kCellIdentifier = @"ReuseCellIdentifier";
 
 + (instancetype)loopScrollViewWithFrame:(CGRect)frame
                               imageUrls:(NSArray *)imageUrls
+                                 titles:(NSArray *)titles
                            timeInterval:(NSTimeInterval)timeInterval
                               didSelect:(Yuri_LoopScrollViewDidSelectItemBlock)didSelect
                               didScroll:(Yuri_LoopScrollViewDidScrollBlock)didScroll {
   Yuri_LoopScrollView *loopView = [[Yuri_LoopScrollView alloc] initWithFrame:frame];
   loopView.imageUrls = imageUrls;
+  loopView.adTitles = titles;
   loopView.timeInterval = timeInterval;
   loopView.didScrollBlock = didScroll;
   loopView.didSelectItemBlock = didSelect;
@@ -120,7 +123,7 @@ NSString * const kCellIdentifier = @"ReuseCellIdentifier";
 - (instancetype)initWithFrame:(CGRect)frame {
   if (self = [super initWithFrame:frame]) {
     self.timeInterval = 5.0;
-    self.alignment = kPageControlAlignCenter;
+    self.alignment = kPageControlAlignRight;
     [self configCollectionView];
   }
   return self;
@@ -134,7 +137,7 @@ NSString * const kCellIdentifier = @"ReuseCellIdentifier";
 
 - (void)configCollectionView {
   self.layout = [[UICollectionViewFlowLayout alloc] init];
-  self.layout .itemSize = self.bounds.size;
+    self.layout .itemSize = self.bounds.size;
   self.layout .minimumLineSpacing = 0;
   self.layout .scrollDirection = UICollectionViewScrollDirectionHorizontal;
   

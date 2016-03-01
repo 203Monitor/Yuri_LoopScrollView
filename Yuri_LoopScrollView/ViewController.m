@@ -28,26 +28,23 @@
                         url
                         ];
   
-  NSArray *titles = @[@"Thank you for your support!",
+  NSArray *titlies = @[@"Thank you for your support!",
                       @"Contact me if any quetion.",
                       @"Email me 930502900@qq.com.",
                       @"Thank you again."
                       ];
   
-  Yuri_LoopScrollView *loop = [Yuri_LoopScrollView loopScrollViewWithFrame:CGRectMake(0, 64, screen_width, screen_height/5) imageUrls:images];
-  loop.timeInterval = 1;//设置时间间隔
-  loop.placeholder = [UIImage imageNamed:@"h1.jpg"];//设置placeholder
-  loop.didSelectItemBlock = ^(NSInteger atIndex, Yuri_LoadImageView *sender) {
-      //设置点击时block
-    NSLog(@"clicked item at index: %ld", atIndex);
-  };
-  loop.didScrollBlock = ^(NSInteger atIndex, Yuri_LoadImageView *sender) {
-      //滑动时block
-    NSLog(@"scroll to index: %ld", atIndex);
-  };
-  loop.alignment = kPageControlAlignRight;
-  loop.adTitles = titles;//设置标题
-
+    Yuri_LoopScrollView *loop = [Yuri_LoopScrollView loopScrollViewWithFrame:CGRectMake(0, 0, screen_width, screen_height/2)
+                                                   imageUrls:images
+                                                      titles:titlies
+                                                timeInterval:5
+                                                   didSelect:^(NSInteger atIndex, Yuri_LoadImageView *sender) {
+                                                       NSLog(@"clicked item at index: %ld", atIndex);
+                                                   }
+                                                   didScroll:^(NSInteger toIndex, Yuri_LoadImageView *sender) {
+                                                       NSLog(@"scroll to index: %ld", toIndex);
+                                                   }];
+    
   [self.view addSubview:loop];
 }
 

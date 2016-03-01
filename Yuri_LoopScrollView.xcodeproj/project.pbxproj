@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0A46441C8556AA00DD17C6 /* UIView+Yuri_UIViewCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A463D1C8556AA00DD17C6 /* UIView+Yuri_UIViewCommon.m */; };
+		0E0A46451C8556AA00DD17C6 /* Yuri_LoadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A463F1C8556AA00DD17C6 /* Yuri_LoadImageView.m */; };
+		0E0A46461C8556AA00DD17C6 /* Yuri_LoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A46411C8556AA00DD17C6 /* Yuri_LoopScrollView.m */; };
+		0E0A46471C8556AA00DD17C6 /* Yuri_PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A46431C8556AA00DD17C6 /* Yuri_PageControl.m */; };
 		0EFFD5E11C7736020007B8DF /* Yuri_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFD5CD1C7736020007B8DF /* Yuri_AppDelegate.m */; };
 		0EFFD5E21C7736020007B8DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFD5CE1C7736020007B8DF /* main.m */; };
 		0EFFD5E71C7736020007B8DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFFD5D41C7736020007B8DF /* Images.xcassets */; };
 		0EFFD5E91C7736020007B8DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFD5D71C7736020007B8DF /* ViewController.m */; };
-		0EFFD5EA1C7736020007B8DF /* UIView+Yuri_UIViewCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFD5DA1C7736020007B8DF /* UIView+Yuri_UIViewCommon.m */; };
-		0EFFD5EB1C7736020007B8DF /* Yuri_LoadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFD5DC1C7736020007B8DF /* Yuri_LoadImageView.m */; };
-		0EFFD5EC1C7736020007B8DF /* Yuri_LoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFD5DE1C7736020007B8DF /* Yuri_LoopScrollView.m */; };
-		0EFFD5ED1C7736020007B8DF /* Yuri_PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFFD5E01C7736020007B8DF /* Yuri_PageControl.m */; };
 		0EFFD6121C77382A0007B8DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EFFD6111C77382A0007B8DF /* Info.plist */; };
 		F06AEE80BE36B193CDEE198B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BD76D47E38D7B553B9C31E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0A463C1C8556AA00DD17C6 /* UIView+Yuri_UIViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yuri_UIViewCommon.h"; sourceTree = "<group>"; };
+		0E0A463D1C8556AA00DD17C6 /* UIView+Yuri_UIViewCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yuri_UIViewCommon.m"; sourceTree = "<group>"; };
+		0E0A463E1C8556AA00DD17C6 /* Yuri_LoadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuri_LoadImageView.h; sourceTree = "<group>"; };
+		0E0A463F1C8556AA00DD17C6 /* Yuri_LoadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuri_LoadImageView.m; sourceTree = "<group>"; };
+		0E0A46401C8556AA00DD17C6 /* Yuri_LoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuri_LoopScrollView.h; sourceTree = "<group>"; };
+		0E0A46411C8556AA00DD17C6 /* Yuri_LoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuri_LoopScrollView.m; sourceTree = "<group>"; };
+		0E0A46421C8556AA00DD17C6 /* Yuri_PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuri_PageControl.h; sourceTree = "<group>"; };
+		0E0A46431C8556AA00DD17C6 /* Yuri_PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuri_PageControl.m; sourceTree = "<group>"; };
 		0EFFD5B11C7735C80007B8DF /* Yuri_LoopScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yuri_LoopScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFFD5CC1C7736020007B8DF /* Yuri_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuri_AppDelegate.h; sourceTree = "<group>"; };
 		0EFFD5CD1C7736020007B8DF /* Yuri_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuri_AppDelegate.m; sourceTree = "<group>"; };
@@ -27,14 +35,6 @@
 		0EFFD5D41C7736020007B8DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0EFFD5D61C7736020007B8DF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0EFFD5D71C7736020007B8DF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0EFFD5D91C7736020007B8DF /* UIView+Yuri_UIViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Yuri_UIViewCommon.h"; sourceTree = "<group>"; };
-		0EFFD5DA1C7736020007B8DF /* UIView+Yuri_UIViewCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Yuri_UIViewCommon.m"; sourceTree = "<group>"; };
-		0EFFD5DB1C7736020007B8DF /* Yuri_LoadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuri_LoadImageView.h; sourceTree = "<group>"; };
-		0EFFD5DC1C7736020007B8DF /* Yuri_LoadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuri_LoadImageView.m; sourceTree = "<group>"; };
-		0EFFD5DD1C7736020007B8DF /* Yuri_LoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuri_LoopScrollView.h; sourceTree = "<group>"; };
-		0EFFD5DE1C7736020007B8DF /* Yuri_LoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuri_LoopScrollView.m; sourceTree = "<group>"; };
-		0EFFD5DF1C7736020007B8DF /* Yuri_PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuri_PageControl.h; sourceTree = "<group>"; };
-		0EFFD5E01C7736020007B8DF /* Yuri_PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuri_PageControl.m; sourceTree = "<group>"; };
 		0EFFD6111C77382A0007B8DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E343BDB658775EAF33AE98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		506ECB1C616E05E0A722B3E2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +62,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		0E0A463B1C8556AA00DD17C6 /* Yuri_LoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A463C1C8556AA00DD17C6 /* UIView+Yuri_UIViewCommon.h */,
+				0E0A463D1C8556AA00DD17C6 /* UIView+Yuri_UIViewCommon.m */,
+				0E0A463E1C8556AA00DD17C6 /* Yuri_LoadImageView.h */,
+				0E0A463F1C8556AA00DD17C6 /* Yuri_LoadImageView.m */,
+				0E0A46401C8556AA00DD17C6 /* Yuri_LoopScrollView.h */,
+				0E0A46411C8556AA00DD17C6 /* Yuri_LoopScrollView.m */,
+				0E0A46421C8556AA00DD17C6 /* Yuri_PageControl.h */,
+				0E0A46431C8556AA00DD17C6 /* Yuri_PageControl.m */,
+			);
+			path = Yuri_LoopScrollView;
+			sourceTree = "<group>";
+		};
 		0EFFD5A81C7735C80007B8DF = {
 			isa = PBXGroup;
 			children = (
@@ -83,7 +98,7 @@
 		0EFFD5CB1C7736020007B8DF /* Yuri_LoopScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				0EFFD5D81C7736020007B8DF /* Yuri_LoopScrollView */,
+				0E0A463B1C8556AA00DD17C6 /* Yuri_LoopScrollView */,
 				0EFFD5CF1C7736020007B8DF /* Resource */,
 				0EFFD5CC1C7736020007B8DF /* Yuri_AppDelegate.h */,
 				0EFFD5CD1C7736020007B8DF /* Yuri_AppDelegate.m */,
@@ -101,21 +116,6 @@
 				0EFFD5D41C7736020007B8DF /* Images.xcassets */,
 			);
 			path = Resource;
-			sourceTree = "<group>";
-		};
-		0EFFD5D81C7736020007B8DF /* Yuri_LoopScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				0EFFD5D91C7736020007B8DF /* UIView+Yuri_UIViewCommon.h */,
-				0EFFD5DA1C7736020007B8DF /* UIView+Yuri_UIViewCommon.m */,
-				0EFFD5DB1C7736020007B8DF /* Yuri_LoadImageView.h */,
-				0EFFD5DC1C7736020007B8DF /* Yuri_LoadImageView.m */,
-				0EFFD5DD1C7736020007B8DF /* Yuri_LoopScrollView.h */,
-				0EFFD5DE1C7736020007B8DF /* Yuri_LoopScrollView.m */,
-				0EFFD5DF1C7736020007B8DF /* Yuri_PageControl.h */,
-				0EFFD5E01C7736020007B8DF /* Yuri_PageControl.m */,
-			);
-			path = Yuri_LoopScrollView;
 			sourceTree = "<group>";
 		};
 		83D610842FEC7F9CFAD5E606 /* Frameworks */ = {
@@ -247,13 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFFD5ED1C7736020007B8DF /* Yuri_PageControl.m in Sources */,
+				0E0A46471C8556AA00DD17C6 /* Yuri_PageControl.m in Sources */,
 				0EFFD5E91C7736020007B8DF /* ViewController.m in Sources */,
-				0EFFD5EB1C7736020007B8DF /* Yuri_LoadImageView.m in Sources */,
+				0E0A46451C8556AA00DD17C6 /* Yuri_LoadImageView.m in Sources */,
 				0EFFD5E21C7736020007B8DF /* main.m in Sources */,
 				0EFFD5E11C7736020007B8DF /* Yuri_AppDelegate.m in Sources */,
-				0EFFD5EC1C7736020007B8DF /* Yuri_LoopScrollView.m in Sources */,
-				0EFFD5EA1C7736020007B8DF /* UIView+Yuri_UIViewCommon.m in Sources */,
+				0E0A46461C8556AA00DD17C6 /* Yuri_LoopScrollView.m in Sources */,
+				0E0A46441C8556AA00DD17C6 /* UIView+Yuri_UIViewCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

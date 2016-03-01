@@ -118,6 +118,7 @@ typedef void (^Yuri_LoopScrollViewDidScrollBlock)(NSInteger toIndex, Yuri_LoadIm
 + (instancetype)loopScrollViewWithFrame:(CGRect)frame imageUrls:(NSArray *)imageUrls;
 + (instancetype)loopScrollViewWithFrame:(CGRect)frame
                               imageUrls:(NSArray *)imageUrls
+                                 titles:(NSArray *)titles
                            timeInterval:(NSTimeInterval)timeInterval
                               didSelect:(Yuri_LoopScrollViewDidSelectItemBlock)didSelect
                               didScroll:(Yuri_LoopScrollViewDidScrollBlock)didScroll;
